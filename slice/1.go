@@ -14,9 +14,6 @@ var arr = [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 func main() {
 	slice0 := arr[2:5]
-
-	slice0[0] = 111
-
 	slice1 := arr[2:]
 	slice2 := arr[:3]
 
