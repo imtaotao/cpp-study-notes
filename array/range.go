@@ -10,12 +10,12 @@ func main() {
 	println("----")
 
 	for i := range s {
-		println(s[i])
+		println(string(s[i]))
 	}
 
 	println("----")
 
 	for _, c := range s {
-		println(c)
+		println(string(c))
 	}
 }

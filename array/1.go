@@ -45,5 +45,5 @@ func multArrays() {
 
 	fmt.Println(arr00, arr11)
 	fmt.Println(a, b)
-	fmt.Println(len(a[1]), cap(a[1])) // len 和 cap 有啥区别？？
+	fmt.Println(len(a[1]), cap(a[1])) // len 和 cap 有啥区别？？（后面的理解，len 是数组的长度，cap 是容量）
 }
