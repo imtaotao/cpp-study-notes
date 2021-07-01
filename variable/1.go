@@ -5,6 +5,14 @@ import "fmt"
 // 全局变量
 var a, b = 1, 2
 
+// 批量声明变量
+var (
+	c string
+	d int
+	e bool
+	f float32
+)
+
 func main() {
 	println(a, b)
 	test()
