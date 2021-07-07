@@ -12,7 +12,10 @@ func main() {
 	}
 
 	n := test{
-		1, 2, 3, 4,
+		a: 1,
+		b: 2,
+		c: 3,
+		d: 4,
 	}
 
 	fmt.Printf("n.a %p\n", &n.a) // n.a 0xc0000ae004
