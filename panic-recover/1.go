@@ -30,7 +30,5 @@ func test() {
 			println(err.(string)) // 将 interface{} 转型为具体类型。
 		}
 	}()
-
-	// 由于 panic、recover 参数类型为 interface{}，因此可抛出任何类型对象。
 	panic("panic error!")
 }

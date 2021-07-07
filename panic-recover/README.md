@@ -18,3 +18,4 @@ recover:
   否则当 `panic` 时，`recover` 无法捕获到 `panic`，无法防止 `panic` 扩散。
 2. `recover` 处理异常后，逻辑并不会恢复到 `panic` 那个点去，函数跑到 `defer` 之后的那个点。
 3. 多个 `defer` 会形成 `defer` 栈，后定义的 `defer` 语句会被最先调用。
+4. 由于 `panic`、`recover` 参数类型为 `interface{}`，因此可抛出任何类型对象。
