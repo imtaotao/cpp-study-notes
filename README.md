@@ -1,5 +1,5 @@
 # 淦！
-😀 -> 😯 -> 😑 -> 😞 -> 😭 -> 👿
+😀  😯  😑  😞  😭  👿
 
 [学习文档](http://www.topgoer.com/)<br/>
 [中文文档大全](http://word.topgoer.com/)
