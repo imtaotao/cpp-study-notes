@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // 匿名函数
 func main() {
 	fn := func() {
@@ -22,4 +24,9 @@ func main() {
 		},
 	}
 	println(d.fn())
+
+	// 自执行函数
+	func() {
+		fmt.Println("IIFE")
+	}()
 }
