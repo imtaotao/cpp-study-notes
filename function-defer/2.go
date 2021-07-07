@@ -20,7 +20,7 @@ func main() {
 	ts := []Test{{name: "a"}, {name: "b"}, {name: "c"}}
 	for _, t := range ts {
 		t2 := t
-		// defer t.Close()
-		defer t2.Close()
+		// defer t.Close()  // c c c
+		defer t2.Close() // c b a
 	}
 }
