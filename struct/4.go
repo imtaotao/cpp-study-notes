@@ -14,7 +14,8 @@ func main() {
 	fmt.Printf("%#v\n", p)
 }
 
-// 其实就是返回一个结构体而已
+// 实现了一个 person 的构造函数。
+// 因为 struct 是值类型，如果结构体比较复杂的话，值拷贝性能开销会比较大，所以该构造函数返回的是结构体指针类型。
 func newPerson(name, city string, age int8) *person {
 	return &person{
 		name: name,
