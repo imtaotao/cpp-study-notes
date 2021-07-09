@@ -6,8 +6,9 @@ import (
 )
 
 func main() {
-	timer5 := time.NewTimer(3 * time.Second)
-	timer5.Reset(1 * time.Second)
+	timer := time.NewTimer(3 * time.Second)
+	// 重置定时器
+	timer.Reset(1 * time.Second)
 	fmt.Println(time.Now())
-	fmt.Println(<-timer5.C)
+	fmt.Println(<-timer.C)
 }

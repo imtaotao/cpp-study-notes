@@ -38,11 +38,11 @@ func useTwo() {
 	fmt.Println(studentInfo)
 }
 
-// Why ???
-// func init() {
-// 	user := map[string]interface{
-// 		"name": "chen",
-// 	}
+func init() {
+	user := map[string]interface{}{
+		"name": "chen",
+	}
+	studentInfo["age"] = 22
 
-// 	fmt.Println(user)
-// }
+	fmt.Println(user)
+}
