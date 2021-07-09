@@ -20,7 +20,8 @@ func main() {
 	// 开启 goroutine 从 ch1 中接收值，并将该值的平方发送到 ch2 中
 	go func() {
 		for {
-			i, ok := <-ch1 // 通道关闭后再取值ok=false
+			// 有点像判断 map 中一个 key 是否存在的语法
+			i, ok := <-ch1 // 通道关闭后再取值 ok=false
 			if !ok {
 				break
 			}
