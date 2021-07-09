@@ -10,7 +10,7 @@ type person struct {
 
 // Go 语言的结构体没有构造函数，我们可以自己实现
 func main() {
-	p := newPerson("pprof.cn", "测试", 90)
+	p := newPerson("www.baidu.com", "测试", 90)
 	fmt.Printf("%#v\n", p)
 }
 
