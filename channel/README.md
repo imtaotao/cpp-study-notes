@@ -9,6 +9,8 @@ Go 语言的并发模型是 CSP（Communicating Sequential Processes），提倡
 Go 语言中的通道（channel）是一种特殊的类型。通道像一个传送带或者队列，总是遵循先入先出（First In First Out）的规则，保证收发数据的顺序。每一个通道都是一个具体类型的导管，也就是声明 channel 的时候需要为其指定元素类型。
 
 ## 总结
+使用**无缓冲通道**进行通信将导致发送和接收的 goroutine **同步化**。因此，无缓冲通道也被称为同步通道
+
 常见异常
 
 <img src="./summary.png">
