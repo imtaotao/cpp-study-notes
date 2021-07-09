@@ -6,3 +6,4 @@
 
 - [基本类型](http://www.topgoer.com/go%E5%9F%BA%E7%A1%80/%E5%8F%98%E9%87%8F%E5%92%8C%E5%B8%B8%E9%87%8F.html)
 - [常用标准库](http://www.topgoer.com/%E5%B8%B8%E7%94%A8%E6%A0%87%E5%87%86%E5%BA%93/)
+- [golang 设计模式](https://github.com/senghoo/golang-design-pattern)

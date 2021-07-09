@@ -11,10 +11,11 @@ func main() {
 	fmt.Println(scoreMap)
 	fmt.Printf("type of a:%T\n", scoreMap)
 
-	map1()
+	initMap()
 }
 
-func map1() {
+// 在声明的时候填充元素（但是值类型为 interface 的时候会报错，原因暂时不明）
+func initMap() {
 	userInfo := map[string]string{
 		"name": "chentao",
 		"age":  "23",
