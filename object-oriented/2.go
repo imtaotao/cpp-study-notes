@@ -15,13 +15,13 @@ type cat struct{}
 
 // dog 实现了 Sayer 接口
 func (d dog) say() {
-	fmt.Println("汪汪汪")
+	fmt.Println("汪")
 }
 
 // cat 也实现了 Sayer 接口
 // 接口的实现就是这么简单，只要实现了接口中的所有方法，就实现了这个接口。
 func (c cat) say() {
-	fmt.Println("喵喵喵")
+	fmt.Println("喵")
 }
 
 func main() {

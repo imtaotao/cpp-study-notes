@@ -11,11 +11,11 @@ type cat struct{}
 type dog struct{}
 
 func (d dog) say() {
-	fmt.Println("汪汪汪")
+	fmt.Println("汪")
 }
 
 func (c cat) say() {
-	fmt.Println("喵喵喵")
+	fmt.Println("喵")
 }
 
 // 接口类型变量能够存储所有实现了该接口的实例
